@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Poppins:wght@300;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">About</a></li>
+            <li><a href="#code" class="nav-link">Code examples</a></li>
+            <li><a href="#language" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="container">
+        <article>
+          <section class="section" id="profile">
+            <table>
+              <tr>
+                <td>
+                  <img
+                    src="./assets/img/img.png"
+                    alt="Profile photo"
+                    class="photo"
+                  />
+                </td>
+                <td>
+                  <h1 class="section-title">Roman Shevyakov</h1>
+                  <p>
+                    Rolling Scope student (JavaScript Front-End Developer Stage
+                    0)
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title"><a name="contacts"></a>Contacts</h2>
+            <ul>
+              <li>Location: Kazakhstan, Shymkent</li>
+              <li>
+                <a href="https://t.me/rmnshvkv" target="_blank">Telegram</a>
+              </li>
+              <li>
+                <a href="https://github.com/ramzes-84" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li><a href="mailto:roman@mgstr.ru" target="_blank">Mail</a></li>
+              <li><a href="tel:888888888" target="_blank">Telephone</a></li>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <h2 class="section-title">
+              <a name="education"></a>Profession and Education
+            </h2>
+            <p>Lawyer (South-Russian Institute of Management)</p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="section-title"><a name="skills"></a>Aims and About</h2>
+            <p>
+              At this moment I am trying to achieve new knowledge and get a
+              profession of JavaScript Front-End Developer.
+            </p>
+          </section>
+          <section class="section" id="code">
+            <h2 class="section-title"><a name="code"></a>Code examples</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/ramzes-84/rsschool-cv"
+                  target="_blank"
+                  >RS School projects on GitHub</a
+                >
+              </li>
+              <li>
+                Codewars example.
+                <a
+                  href="https://www.codewars.com/kata/589519d1f0902e01af000054"
+                  target="_blank"
+                  >Kata 589519d1f0902e01af000054</a
+                ><br />
+                <code>
+                  function perimeterSequence(a,n) {<br />
+                  return (n * a) * 4<br />
+                  }<br />
+                </code>
+              </li>
+              <li>None other serious code examples yet</li>
+            </ul>
+          </section>
+          <section class="section" id="language">
+            <h2 class="section-title"><a name="language"></a>Languages</h2>
+            <ul>
+              <li><strong>Russian</strong>: native</li>
+              <li>
+                <strong>English</strong>: B1 (according to EF SET Quick Check)
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer">
+        <a href="https://github.com/ramzes-84"><img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/800px-GitHub_logo_2013.svg.png"
+          alt="github"
+          width="120px"
+        /></a>
+        <a href="https://rs.school/js/"><img
+          src="https://rs.school/images/rs_school_js.svg"
+          alt="rsschool"
+          width="120px"
+        /></a>
+        <p>@2022</p>
+      </div>
+    </footer>
+  </body>
 </html>
