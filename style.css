@@ -16,6 +16,11 @@ body {
   color: #4d2323;
 }
 
+.code {
+    background: #e8e1e1;
+    padding: 20px;
+}
+
 html {
   scroll-behavior: smooth;
 }
