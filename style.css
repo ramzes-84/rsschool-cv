@@ -17,12 +17,8 @@ body {
 }
 
 .code {
-    background: #e8e1e1;
-    padding: 20px;
-}
-
-html {
-  scroll-behavior: smooth;
+  background: #e8e1e1;
+  padding: 20px;
 }
 
 .photo {
@@ -48,7 +44,7 @@ html {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  color: #ad0f93;
+  color: #ffffff;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -59,7 +55,7 @@ html {
 }
 
 .section {
-  width: 50%;
+  width: 100%;
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: rgb(186, 186, 231);
@@ -78,4 +74,17 @@ html {
   .section {
     width: 100%;
   }
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #565382;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
