@@ -8,8 +8,8 @@
 * **Discord:** ramzes_84#0288
 ***
 ## Profession and Education
-Lawyer (South-Russian Institute of Management, 2009)
-JavaScript Front-End Developer Stage 0 (Rolling Scopes, 2023)
+* Lawyer (South-Russian Institute of Management, 2009)
+* JavaScript Front-End Developer Stage 0 (Rolling Scopes, 2023)
 ***
 ## Aims and About
 At this moment I am trying to achieve new knowledge and get a profession of JavaScript Front-End Developer.
